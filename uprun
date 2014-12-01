@@ -1,0 +1,3 @@
+#!/bin/bash
+# TODO there appears to be a bug in one-jar where the silent property is being ignored in one-jar.properties. Leaving out one-jar.properties for now.
+java -Done-jar.silent=true -jar ./build/libs/uprun.jar "$@"
