@@ -7,8 +7,8 @@ a stock either increases in opening price or remains the same as the previous da
     usage: uprun -t [stock symbol] -s [MM-dd-YYYY] -e [MM-dd-YYYY]
     Options:
         -t <arg>   Ticker symbol of a stock (e.g. MSFT).
-        -s <arg>   Start date (inclusive).
-        -e <arg>   End date (inclusive).
+        -s <arg>   Start date (inclusive). Format: MM-dd-YYYY
+        -e <arg>   End date (inclusive). Format: MM-dd-YYYY
         -help      Print this message.
 
 Example:
